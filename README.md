@@ -22,3 +22,21 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+Wireframe
+
+API To Do for tasks
+
+1. create app, set up db, git, heroku
+2. create model
+
+  tasks: {
+    t.string :title
+    t.boolean :done, default: false
+  }
+
+3. create view for todo, SPA
+    create controller
+
+4. create rspec test

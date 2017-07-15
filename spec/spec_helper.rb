@@ -14,9 +14,6 @@ require 'factory_girl_rails'
 # it.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
-if ActiveRecord::Migrator.needs_migration?
-  ActiveRecord::Migrator.migrate(File.join(Rails.root, 'db/migrate'))
-end
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
